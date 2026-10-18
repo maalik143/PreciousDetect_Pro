@@ -1,0 +1,37 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+server.log
+
+# Security - NEVER commit these
+*.key
+vault.key
+.keystore
+.env
+*.pem
+*.p12
+
+# Data files (user-specific)
+data/*.db
+data/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
